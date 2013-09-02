@@ -1,5 +1,4 @@
----
 language: node_js
 before_script:
   - "npm install phantom-jasmine -g"
-script: phantom-jasmine SpecRunner.html
+script: phantom-jasmine -c spec/config.json
